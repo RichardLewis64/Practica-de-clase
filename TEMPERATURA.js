@@ -9,6 +9,19 @@ function ConvertirGradosFahrenheitACelcius(fahrenheit){
     return resultado;
     }
 
+let Celcius=32;
+
+let resultado= ConvertirGradosCelciusFahrenheit(Celcius);
+console.log('${Celcius}ºC=${resultado}ºF');
+console.log();
+
+let fahrenheit=resultado;
+let resultado= ConvertirGradosFahrenheitACelcius(fahrenheit);
+console.log('${fahrenheit}ºC=${resultado}ºF');
+console.log();
+
+
+
     function Celcius(Num){
         for (var i = 1; i <= Num; i++) {
    
