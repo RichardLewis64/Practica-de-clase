@@ -43,6 +43,7 @@ if(i==26,i==27,i==28,i==29,i==30,i==31,i==32,i==33,i==34,i==35,i==36,i==37,i==38
 }
 else
 	document.write(i + '<br>');
-}   }
+}
 return num
+    }
 Function (100)     
