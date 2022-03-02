@@ -1,4 +1,4 @@
-
+/*
 function ConvertirGradosCelciusFahrenheit(Celcius){
 var resultado= Celcius* 9 / 5.0 + 32;
 return resultado;
@@ -46,4 +46,20 @@ else
 }
 return num
     }
+*/
+function Temperatura()
+ {
+     var numero1 = parseFloat(document.getElementById('Temper').value);
+     if (numero1<15 ) {
+          resultado = "Frio";
+     } 
+     else if (numero1>15 || numero1<25) {
+         resultado = "Templado";
+     } 
+      if (numero1>=26) {
+         resultado = "Calor";
+     } 
+     document.getElementById('result').value = resultado
+ }
+ 
 
