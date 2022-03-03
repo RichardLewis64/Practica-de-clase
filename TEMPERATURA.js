@@ -49,7 +49,7 @@ return num
 */
 function Temperatura()
  {
-     var numero1 = parseFloat(document.getElementById('Temper').value);
+     var numero1 = parseFloat(document.getElementById('Temperatura').value);
      if (numero1<15 ) {
           resultado = "Frio";
      } 
