@@ -23,4 +23,4 @@ document.write(i + '<br>');
 }   
 return Num
  }
-Function (100)  
+FizzBuzz (100)  
