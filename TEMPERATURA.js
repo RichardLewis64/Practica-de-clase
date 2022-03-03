@@ -47,7 +47,7 @@ else
 return num
     }
 */
-function Temperatura()
+function Temperatura1()
  {
      var numero1 = parseFloat(document.getElementById('Temperatura').value);
      if (numero1<15 ) {

@@ -8,7 +8,7 @@ function Factorial(num)
         return num*Factorial(num-1);
     }
 }
-console.log(Factorial(5)
+console.log(Factorial(5));
 
 /*function Factorial()
 {

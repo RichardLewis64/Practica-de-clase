@@ -1,20 +1,20 @@
-function Fecha ()
- {
+/*function Fecha ()
+ {*/
  
      let freday = new Date();
       var diaSemana = freday.getDay();
-      var dia = freday.getDate();
+      var day = freday.getDate();
       var mes = freday.getMonth();
-      var year =freday.getFullYear();
+      var Año =freday.getFullYear();
  
-      let DiaSemana = document.getElementById('fecha'+freday);
-      document.write(Fecha)
-       let Dia = document.getElementById('day');
-       document.write(day)
-       let Mes = document.getElementById('mes');
-       document.write(mes)
-       let Year = document.getElementById('Año');
-       document.write(Año)
+     // let DiaSemana = document.getElementById('fecha'+freday);
+     // document.write(freday)
+       //let Dia = document.getElementById('day');
+       //document.write(day)
+       //let Mes = document.getElementById('mes');
+       //document.write(mes)
+       //let Year = document.getElementById('Año');
+       //document.write(Año)
     
       /* let dia=Fecha.getDay();
        let mes=Fecha.getMonth();
@@ -26,14 +26,15 @@ function Fecha ()
         
 
              let semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
-             DiaSemana = semana[diaSemana];
-             Dia = dia;  
+             let DiaSemana = semana[diaSemana];
+            let Dia = day;  
              let meses = ['Enero','Febrero','Marzo','Abril','Mayo','Juio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-             Mes = meses[mes];
+             let Mes = meses[mes];
              let = Año = [2022]
-             Year = year; 
+             let Year = Año; 
              let resultado= DiaSemana+" "+Dia+" del "+Mes+" "+" del "+ Year;
-    
-      document.getElementById('mostrarfecha').value= resultado;
+
+    document.write(resultado);
+     // document.getElementById('fecha').value= resultado;
  
- }
+// }
