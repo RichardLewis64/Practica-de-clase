@@ -21,6 +21,6 @@ document.writeln(i+"Fizz"+"<br>");
 else
 document.write(i + '<br>');
 }   
-return num
+return Num
  }
 Function (100)  
