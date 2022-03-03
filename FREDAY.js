@@ -8,21 +8,21 @@ function Fecha ()
       var year =freday.getFullYear();
  
       let DiaSemana = document.getElementById('fecha');
-      document.write(Fecha)
+     // document.write(Fecha)
        let Dia = document.getElementById('day');
-       document.write(day)
+       //document.write(day)
        let Mes = document.getElementById('mes');
-       document.write(mes)
+       //document.write(mes)
        let Year = document.getElementById('Año');
-       document.write(Año)
+       //document.write(Año)
     
-       let dia=Fecha.getDay();
+       /*let dia=Fecha.getDay();
        let mes=Fecha.getMonth();
        let year=Fecha.getFullYear();
 
          console.log("dia : "+dia);
-         console.log("dia : "+Mes);
-         console.log("dia : "+Año);
+         console.log("mes : "+Mes);
+         console.log("year : "+Año);*/
         
 
              let semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
