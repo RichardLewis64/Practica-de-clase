@@ -7,16 +7,16 @@ function Fecha ()
       var mes = freday.getMonth();
       var year =freday.getFullYear();
  
-      let DiaSemana = document.getElementById('fecha');
-     // document.write(Fecha)
+      let DiaSemana = document.getElementById('fecha'+freday);
+      document.write(Fecha)
        let Dia = document.getElementById('day');
-       //document.write(day)
+       document.write(day)
        let Mes = document.getElementById('mes');
-       //document.write(mes)
+       document.write(mes)
        let Year = document.getElementById('Año');
-       //document.write(Año)
+       document.write(Año)
     
-       /*let dia=Fecha.getDay();
+      /* let dia=Fecha.getDay();
        let mes=Fecha.getMonth();
        let year=Fecha.getFullYear();
 
